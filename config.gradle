@@ -1,0 +1,57 @@
+ext {
+    plugins = [
+            application: 'com.android.application',
+            library    : 'com.android.library',
+            maven      : 'com.github.dcendents.android-maven',
+            bintray    : 'com.jfrog.bintray'
+    ]
+
+    android = [
+            applicationId    : "com.liuweijw.first",
+            compileSdkVersion: 27,
+            minSdkVersion    : 15,
+            targetSdkVersion : 22,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+    // support
+    supportLibraryVersion = '27.0.2'
+
+    dependencies = [
+            // library.
+            appcompat_v7        : "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            constraint          : "com.android.support.constraint:constraint-layout:1.0.2",
+            // sample.
+            design              : "com.android.support:design:${supportLibraryVersion}"
+    ]
+
+    bintray = [
+            // library
+            version       : "1.0.0",
+
+            siteUrl       : 'https://github.com/liuweijw/First',
+            gitUrl        : 'git@github.com:liuweijw/First.git',
+
+            groupId       : "com.liuweijw.library",
+
+            // project
+            packaging     : 'aar',
+            name          : 'a first project',
+            description   : 'First manager for Android',
+
+            // project.license
+            licenseName   : 'The Apache Software License, Version 2.0',
+            licenseUrl    : 'http://www.apache.org/licenses/LICENSE-2.0.txt',
+
+            // project.developers
+            developerId   : 'liuweijw',
+            developerName : 'liuweijw',
+            developerEmail: 'liuweijw.github@foxmail.com',
+
+            // bintray
+            binrayLibrary : "firstlibrary",
+            bintrayRepo   : "maven",
+            bintrayLicense: "Apache-2.0"
+    ]
+}
