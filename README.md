@@ -4,7 +4,7 @@
 
 - config.gradle [guidle](config.gradle)
 - 简化配置 [guidle](https://github.com/liuweijw/jcenter/blob/master/bintray.gradle?raw=true)
-- 其中参数申请 [guidle](https://bintray.com)
+- 其中参数申请 [guidle](https://bintray.com/signup/oss)
 - 个人核心信息配置在项目 local.properties
 
   ### bintray.user=********

@@ -28,12 +28,12 @@ ext {
 
     bintray = [
             // library
-            version       : "1.0.0",
+            version       : "1.0.2",
 
             siteUrl       : 'https://github.com/liuweijw/First',
             gitUrl        : 'git@github.com:liuweijw/First.git',
 
-            groupId       : "com.liuweijw.library",
+            groupId       : "com.github.liuweijw.library",
 
             // project
             packaging     : 'aar',

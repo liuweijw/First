@@ -26,4 +26,9 @@ dependencies {
     implementation rootProject.ext.dependencies.appcompat_v7
 }
 
-apply from: "https://github.com/liuweijw/jcenter/blob/master/bintray.gradle?raw=true"
+// 只发布到 JCenter
+//apply from: "https://github.com/liuweijw/jcenter/blob/master/bintray.gradle?raw=true"
+//它会先发布到Jcenter，手动同步到Maven
+//apply from: 'https://github.com/liuweijw/jcenter/blob/master/maven.gradle?raw=true'
+//它会先发布到Jcenter，并对发布内容进行签名，然后自动同步到Maven
+apply from: 'https://github.com/liuweijw/jcenter/blob/master/maven-auto.gradle?raw=true'
