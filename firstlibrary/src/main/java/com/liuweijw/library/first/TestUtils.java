@@ -7,6 +7,6 @@ package com.liuweijw.library.first;
 public class TestUtils {
 
     public static void test(){
-        System.out.print(" hello world version 1.0.1 !!!");
+        System.out.print(" hello world version 1.0.3 !!!");
     }
 }

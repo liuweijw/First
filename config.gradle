@@ -28,7 +28,7 @@ ext {
 
     bintray = [
             // library
-            version       : "1.0.2",
+            version       : "1.0.3",
 
             siteUrl       : 'https://github.com/liuweijw/First',
             gitUrl        : 'git@github.com:liuweijw/First.git',
